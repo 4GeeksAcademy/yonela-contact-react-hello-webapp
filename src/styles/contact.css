@@ -1,0 +1,121 @@
+/* ContactList.css */
+
+.contact-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .contact-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-list-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .add-contact-button {
+    background-color: #10B981;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-contact-button:hover {
+    background-color: #059669;
+  }
+  
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+  
+  .contact-photo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .contact-info {
+    flex-grow: 1;
+  }
+  
+  .contact-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-detail {
+    color: #4B5563;
+    margin-bottom: 0.25rem;
+  }
+  
+  .contact-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .contact-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .edit-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+  }
+  
+  .edit-button {
+    color: #3B82F6;
+  }
+  
+  .edit-button:hover {
+    color: #2563EB;
+  }
+  
+  .delete-button {
+    color: #EF4444;
+  }
+  
+  .delete-button:hover {
+    color: #DC2626;
+  }
+  
+  .no-contacts-message {
+    color: #4B5563;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #3B82F6;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+  }
+  
+  .back-button:hover {
+    background-color: #2563EB;
+  }
